@@ -1,0 +1,39 @@
+body{
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./make-up.jpg");
+}
+.name{
+text-shadow: 1px 13px 37px rgba(132, 142, 237, 1);
+    size: 70px;
+    text-decoration: dashed;
+    text-transform: uppercase;
+    margin-top: 120px;
+    margin-left: 1000px;
+    color: aliceblue;
+}
+h1{
+    color: aliceblue;
+    margin-left: 1050px;
+    margin-top: 100px;
+    
+    text-shadow: 3px 4px 21px rgba(66, 68, 90, 1);
+}
+button{
+    width: 120px;
+    height: 50px;
+    border: 0;
+    border-radius: 25px;
+    margin-left: 1080px;
+    margin-top: 80px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: azure;
+    -webkit-box-shadow: 8px -4px 54px -7px rgba(66, 68, 90, 1);
+        -moz-box-shadow: 8px -4px 54px -7px rgba(66, 68, 90, 1);
+        box-shadow: 8px -4px 54px -7px rgba(66, 68, 90, 1);
+}
